@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - CADA PESO CUENTA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de menú -->
+    <div class="menu-bar">
+        <a href="index.html">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte</p>
+    </div>
+    
+    <!-- Contenido -->
+    <div class="content">
+        <h2>Formulario de Contacto</h2>
+        <p>Si tienes alguna pregunta o consulta, por favor llena el siguiente formulario y te responderemos lo antes posible.</p>
+        
+        <form class="contact-form" action="enviar_formulario.php" method="POST">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <input type="text" name="asunto" placeholder="Asunto" required>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 CADA PESO CUENTA. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
